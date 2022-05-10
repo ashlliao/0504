@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: #F4E6EC;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color: #C3BFBC;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* [disabled]background-color: #DACECF; */
+}
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-color: #F0E9D9;
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3:hover {
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    font-size: medium;
+}
+.box1:hover {
+-webkit-transform: (5,-5);-o-transform: (5,-5);transform: (5,-5);
+    -webkit-transform: translate(20px,20px);
+    -o-transform: translate(20px,20px);
+    transform: translate(20px,20px);
+    text-shadow: 3px 3px #B2B1B1;
+}
+.box2:hover {
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    background-color: #908A81;
+}
